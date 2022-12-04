@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+ body {
+    font-family: 'Press Start 2P', cursive;
+
+    background-image: url("./assets/93c6e1ce8894ccf85acc3354266adc83.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+ }  
+ #seccion-titulo {
+    color:rgba(0, 26, 255, 0.582);
+    width: 500;
+    height: 60px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 5px;
+    border: 3px solid #1900ff;
+    font-size: 20px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #103e8194;
+    backdrop-filter: blur(3px);
+}
+   
+
+/*.titulo {
+    
+   
+}*/
+
+#zona-de-juego {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    height: 380px;
+    background: #103e8194;
+    border-radius: 30px;
+    padding: 5px;
+} 
+
+#pantallas-juego {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start ;
+    height: 380px;
+    background: #103e8194;
+    border-radius: 30px;
+    padding: 5px;
+}
+
+.tarjetasInfo {
+    color: #47b4c2d7;
+    width: 150px;
+    height: 245px;
+    padding: 5px;
+    box-sizing: border-box;
+    margin: 5px;
+    border: 3px solid #02503d;
+    font-size: 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background: #06343aa1;
+    backdrop-filter: blur(3px);
+    flex-grow: 0;
+}
+
+#Seleccionar-Pokemon {
+    color: #47b4c2d7;
+    width: 150px;
+    height: 360px;
+    padding: 3px;
+    box-sizing: border-box;
+    margin: 5px;
+    font-size: 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    backdrop-filter: blur(3px);
+    flex-grow: 1;
+}
+
+.botonPokemon {
+    color: #4A3F73;
+    width: 200px;
+    height: 90px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(8px);
+    border: 1px solid transparent;
+    padding: 5px;
+    box-sizing: border-box;
+    margin: 5px;
+}
+
+.subtitulo {
+    color: rgba(0, 26, 255, 0.582);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 500px;
+    border-radius: 20px;
+    margin-top: 1px;
+    margin-bottom: 3px;
+    backdrop-filter: blur(3px);
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.ventanasSeleccion {
+    width: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    margin-bottom: 3px;
+}
+
+
+.botonAtaque {
+    color: #4A3F73;
+    width: 200px;
+    height: 90px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(8px);
+    border: 1px solid transparent;
+    padding: 5px;
+    box-sizing: border-box;
+    margin: 5px;
+}
+
+#pie {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+} 
+
+#Marcador {
+    color: #47b4c2d7;
+    width: 315px;
+    height: 180px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 10px;
+    border: 3px solid #1900ff;
+    font-size: 8px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #103e8194;
+    backdrop-filter: blur(5px);
+    flex-grow: 0;
+}
+
+.casillasMensajes {
+    height: 100px;
+    width: 950px;
+    background: #06343aa1;
+    backdrop-filter: blur(3px);
+    border: 3px solid #02503d;
+    font-size: 10px;
+    border-radius: 20px;
+}
+
+
+
+#Resultados {
+    color: #47b4c2d7;
+    width: 250px;
+    height: 180px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 5px;
+    border: 3px solid #1900ff;
+    font-size: 8px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #103e8194;
+    backdrop-filter: blur(5px);
+    flex-grow: 1;
+}
+
+
+
+

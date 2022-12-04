@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+ body {
+    font-family: 'Press Start 2P', cursive;
+    background-image: url("./assets/SSB4UPokemonStadium2.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+    
+ }
+    
+ 
+#seleccionar-mascota {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ClaseTitulo {
+    color: #334bd1;
+    font-size: 30px
+}
+
+.subtitulo {
+    display: flex;
+    justify-content: center;
+    color: #000000;
+    font-size: 15px;
+    background-color: transparent;
+    background-image: linear-gradient(45deg, #334bd152 0%, #24af0852 100%);
+    backdrop-filter: blur(3px);
+    padding: 20px;
+    border: 2px solid #334bd1;
+    border-radius: 20px;
+    min-width: 400px;
+    
+}
+
+.tarjetas, .atkBtn {
+    display: flex;
+    gap: 10px;
+}
+
+.tarjeta-de-mokepon {
+    color: #000000;
+    width: 185px;
+    height: 100px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 10px;
+    border: 2px solid #334bd1;
+    font-size: 10px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #334bd152;
+    background-image: linear-gradient(45deg, #334bd152 0%, #24af0852 100%);
+    backdrop-filter: blur(3px);
+}
+.tarjeta-de-mokepon img {
+    width: 80px;
+}
+
+.tarjeta-de-mokepon:hover{
+    background: rgba(255, 255, 255, 0.274);
+    color: #334bd1;
+}
+
+input:checked + label{
+    background: rgba(255, 255, 255, 0.274);
+    color: #334bd1; 
+}
+
+input {
+    display: none;
+}
+
+#boton-seleccionar {
+    font-size: 10px;
+    color: #000000;
+    width: 190px;
+    height: 30px;
+    border: 2px solid #334bd1;
+    border-radius: 20px;
+    font-family: 'Press Start 2P', cursive;
+    margin-top: 10px;
+    background-color: #334bd152;
+    background-image: linear-gradient(45deg, #334bd152 0%, #24af0852 100%);
+    backdrop-filter: blur(3px);
+}
+#boton-seleccionar:hover{
+    background: rgba(255, 255, 255, 0.603);
+    color: #334bd1;
+}
+#seleccionar-ataque {
+    flex-direction: column;
+    align-items: center;
+}
+
+.botonAtaque {
+    font-family: 'Press Start 2P', cursive;
+    width: 150px;
+    height: 40px;
+    background-color: transparent;
+    background-image: linear-gradient(45deg, #334bd183 0%, #24af0880 100%);
+    color:#000000;
+    backdrop-filter: blur(3px);
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 10px;
+    border: 2px solid #334bd1;
+    font-size: 13px;
+    border-radius: 20px;
+}
+
+.botonAtaque:hover{
+    background: transparent;
+    background-color: rgba(255, 255, 255, 0.274);
+    color: #334bd1;
+    backdrop-filter: blur(3px)
+}
+#mensajes {
+    min-width: 400px;
+    font-size: 15px;
+    border: 2px solid #334bd1;
+    flex-direction: column;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    background-image: linear-gradient(45deg, #334bd183 0%, #24af0880 100%);
+    color:#000000;
+    backdrop-filter: blur(3px)
+}
+
+#boton-reiniciar{
+    font-family: 'Press Start 2P', cursive;
+    width: 150px;
+    height: 50px;
+    background: none;
+    border-radius: 10px;
+    border: none;
+    color: #334bd1;
+}
+
+#boton-reiniciar:hover{
+    background: transparent;
+    background-color: rgba(255, 255, 255, 0.274);
+    color: #334bd1;
+    backdrop-filter: blur(3px);
+    border: 2px solid #334bd1;
+}
+
+.divTarjetasInfo {
+    display: grid;
+    grid-template-columns: 200px 200px;
+    gap: 100px;
+}
+
+.infoJugador, .infoEnemigo {
+    max-height: 300px;
+    margin-top: 30px;
+    border: 2px solid #334bd1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: transparent;
+    background-image: linear-gradient(45deg, #334bd183 0%, #24af0880 100%);
+    color:#000000;
+    backdrop-filter: blur(3px);
+    border-radius: 20px;
+    font-size: 13px;
+    overflow-y: auto;
+}
+
+@media (max-width:360px) {
+    .tarjetas, .atkBtn {
+        flex-direction: column;
+    }
+    .subtitulo {
+        min-width: max-content;
+    }
+    #mensajes {
+        max-width: max-content;
+        min-width: 250px;
+        font-size: 10px;
+    }
+    .divTarjetasInfo {
+        grid-template-columns: 150px 150px;
+        gap: 50px;
+    }
+    
+
+}
